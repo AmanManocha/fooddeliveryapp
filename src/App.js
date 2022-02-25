@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/home';
+import Restaurant from './components/restaurant';
 
 function App() {
   return (
     <div className="App">
     <Home/>
+    <Restaurant/>
   </div>
   );
 }
